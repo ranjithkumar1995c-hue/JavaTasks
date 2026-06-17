@@ -166,6 +166,55 @@ public class Car {
 	}
 
 }
+A mobile shop maintains mobile specifications such as brand, price, and storage. Design a class to represent a mobile device.
+Task No:6
+
+package newclass;
+//Task No:6
+
+public class Mobileshop {
+	//attributes
+   
+    public void Mobileshop(String brand,Long price,int storge) {
+    	if(price>=100000L) {
+    		System.out.println("Premimum");
+    		System.out.println("Brand:"+brand);
+        	System.out.println("Price:"+price);
+        	System.out.println("Storge:"+(storge+200));
+    		
+    	}
+    	else if((price>=50000L)&&(price<=80000L)){
+    		System.out.println("Mid range");
+    		System.out.println("Brand:"+(brand));
+        	System.out.println("Price:"+price);
+        	System.out.println("Storge:"+(storge+1000));
+    	}
+    	else if((price>=10000L)&&(price<=35000L)){
+    		System.out.println("Economic range");
+    		System.out.println("Brand:"+brand);
+        	System.out.println("Price:"+price);
+        	System.out.println("Storge:"+(storge+50));
+    	}
+    	else {
+    		System.out.println("No Affordable brand found");
+    	}
+//    	System.out.println("Brand:"+brand);
+//    	System.out.println("Price:"+price);
+//    	System.out.println("Storge:"+storge);
+    }
+	
+	
+
+	public static void main(String[] args) {
+		Mobileshop m=new Mobileshop();
+		m.Mobileshop("Samsung", 75000L, 45);
+ 
+		
+		
+	}
+
+}
+
 
 
 
