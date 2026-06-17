@@ -23,6 +23,7 @@ public class Rectangulartask {
 
 }
 //Task No:1
+A school system needs to maintain student information such as id, name, and marks. Design a class to store these details and display them using objects.
 
 package newclass;
 import java.util.*;
@@ -55,6 +56,117 @@ public class Schooltask {
   }
 
 }
+
+
+A circle utility should determine the area and circumference using a given radius. Model this using a class and suitable methods.
+//Task No:3
+public class Circletask {
+	int L=30;
+	int b=45;
+	public void area() {
+		
+		
+		System.out.println("Method is working....");
+	}
+	Circletask(int r){
+//		int a=L*b;
+		float a=(float) ((3.14)*r*r);
+		System.out.println(a);
+		System.out.println("Constructor is activeted...");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Circletask a=new Circletask(20);
+		a.area();
+		
+
+	}
+
+}
+An HR system manages employees with attributes id, name, and salary. Create objects representing different employees and print their details.
+
+package newclass;
+//Task No:4
+public class Idname {
+//	attributes
+	int id;
+	String name;
+	Long Salary;
+//	Idname(){
+//		id=87;
+//		name="Ranjith";
+//		Salary=25000L;
+//		System.out.println("Constructor is Created.....");
+//		System.out.println("id:"+id);
+//		System.out.println("Name:"+name);
+//		System.out.println("Salary:"+Salary);
+//	}
+//	Idname(int id,String name,Long Salary){
+//		System.out.println("Constructor is Created.....");
+//		System.out.println("id:"+id);
+//		System.out.println("Name:"+name);
+//		System.out.println("Salary:"+Salary);
+//	}
+//	
+//	
+//	
+
+	public void employee(int id,String name,Long Salary) {
+		System.out.println("id:"+id);
+		System.out.println("Name:"+name);
+		System.out.println("Salary:"+Salary);
+		
+		
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Idname i =new Idname();
+		Idname i1 =new Idname();
+		Idname i2 =new Idname();
+		
+		i.employee(87, "ranjith", 25000L);
+		i1.employee(91, "mani", 50000L);
+		i2.employee(47, "ragul", 15000L);
+    
+	}
+
+}
+A car showroom stores information like brand, model, and price. Represent each car as an object and display the inventory.
+package newclass;
+//Task No:5
+
+public class Car {
+	Car(){
+		System.out.println("Default Constructor...");
+	}
+	Car(int a,int b){
+		int c=a*b;
+		System.out.println("Product:"+c);
+	}
+	Car(int X,float d){
+		float y=(float)X+d;
+		System.out.println("sum"+y);
+	}
+	Car (String name,long price){
+		System.out.println("Car BrandName:"+name);
+		System.out.println("Car price:"+price);
+	
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+     Car C=new Car();
+     Car C1=new Car(10,20);
+     Car C2=new Car(5,10.3f);
+     Car C3=new Car("Rolls Royce",1000000L);
+     
+	}
+
+}
+
 
 
 
