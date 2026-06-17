@@ -1,4 +1,5 @@
 package newclass;
+A rectangle calculator must compute the area using length and breadth. Represent the rectangle as a class and calculate the area.
 //Task No-2
 public class Rectangulartask {
 	int L=30;
