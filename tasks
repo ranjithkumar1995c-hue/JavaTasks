@@ -22,3 +22,39 @@ public class Rectangulartask {
 	}
 
 }
+//Task No:1
+
+package newclass;
+import java.util.*;
+
+public class Schooltask {
+	int id;
+	int marks;
+	String name;
+	
+ Schooltask (int id,int marks,String name) {
+	System.out.println("Constructor is created....");
+    System.out.println("id Number:"+id);
+	System.out.println("Marks:"+marks);
+	System.out.println("Name:"+name);
+}
+	
+	public static void main(String[] args) {
+		Scanner sc=new Scanner (System.in);
+		int idno=sc.nextInt();
+		int marks=sc.nextInt();
+		sc.nextLine();
+		String name=sc.nextLine();
+				
+		
+		
+		// TODO Auto-generated method stub
+     Schooltask S1=new Schooltask(idno,marks,name); 
+     
+    		 
+  }
+
+}
+
+
+
