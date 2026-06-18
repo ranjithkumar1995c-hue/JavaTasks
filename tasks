@@ -214,6 +214,57 @@ public class Mobileshop {
 	}
 
 }
+Task No;7
+A banking system maintains an account with accountNumber, name, and balance, allowing deposit and withdrawal operations.
+
+
+
+package newclass;
+//Task No:7
+public class Banktask {
+	String name;
+	int    accountnumber;
+	long  actualAmt=20000L;
+	public void disp(String name,long Accountnumber,long Balance,char key) {
+		if(key=='A') {
+			System.out.println("Enter deposit amount= "+Balance);
+			System.out.println("Actual deposit amount= "+actualAmt);
+			System.out.println("Total Amount= "+(Balance+actualAmt));}
+			else if(key=='B'){
+				System.out.println("Enter withdrawel amount= "+Balance);
+				System.out.println("Enter Actual amount= "+actualAmt);
+				System.out.println("Enter Total amount= "+(actualAmt-Balance));
+				
+			}
+		else if(key=='C'){
+			System.out.println("Total amount=total amount-withdrawel amount"+actualAmt);
+    	}
+			    
+		}
+		
+//	System.out.println("Name:"+name);
+//   	System.out.println("Accountnumber:"+Accountnumber);
+//    System.out.println("Balance:"+Balance);
+    
+    
+
+	public static void main(String[] args) {
+		Banktask b=new Banktask();
+		
+		Banktask b1=new Banktask();
+
+		
+		System.out.println("Deposit Amount: Press A");
+		
+	    b.disp("raju", 584803401000L, 55000L,'A');
+
+	    System.out.println("Withdraw Amount: Press B");
+		
+	    b1.disp("raju", 584803401000L, 25000L,'B');
+ 	}
+
+}
+
 
 
 
