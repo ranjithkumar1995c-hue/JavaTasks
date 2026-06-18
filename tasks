@@ -265,6 +265,7 @@ public class Banktask {
 
 }
 Task No:8
+A library catalog stores details of books such as bookId, bookName, and author. Create objects to represent books in the catalog.
 package newclass;
 //Task No:8
 public class Booktask {
