@@ -264,6 +264,47 @@ public class Banktask {
  	}
 
 }
+Task No:8
+package newclass;
+//Task No:8
+public class Booktask {
+	//attributes
+	int id=185;
+	String  bookName="naval";
+	String author="james";
+	int id1=186;
+	String bookName1="Poniyen selven";
+	String author1="kalki";
+	//method
+	public void show() {
+		System.out.println("id:"+id);
+		System.out.println("BookName:"+bookName);
+		System.out.println("Author:"+author);
+		
+}
+	public void book (){
+		System.out.println("id1:"+id1);
+		System.out.println("BookName1:"+bookName1);
+		System.out.println("Author1:"+author1);
+		
+}
+	
+	
+	
+	
+
+	public static void main(String[] args) {
+		Booktask b=new Booktask();
+		Booktask b1=new Booktask();
+		b.show();
+		b1.book();
+		System.out.println(b1.bookName);
+		System.out.println(b1.author1);
+		System.out.println(b1.bookName1);
+
+	}
+
+}
 
 
 
