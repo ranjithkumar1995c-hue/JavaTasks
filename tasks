@@ -353,6 +353,80 @@ public class laptoptask {
 	}
 
 }
+Task No:10
+package newclass;
+//Task No:10
+
+public class Movietask {
+	//attributes
+	int id ;
+	String Name;
+	long price;
+	char key;
+	String title;
+	String director;
+	String rating;
+	public void employee(String title,String director,long rating,char Key) {
+		if(key=='A') { 
+			System.out.println("Title="+title);
+			System.out.println("Director="+director);
+			System.out.println("Rating="+rating);
+		}
+		else if(key=='B') {
+			System.out.println("Title="+title);
+			System.out.println("Director="+director);
+			System.out.println("Rating="+rating);}
+		else if(key=='c') {
+			System.out.println("Not Selector for Movies");
+		}
+			
+
+		
+//		System.out.println("id:"+id);
+//		System.out.println("Name:"+name);
+//		System.out.println("price:"+price);
+		
+}
+	public static void main(String[] args) {
+		
+		Movietask m=new Movietask();
+		System.out.println("rav1,ramu,10L:Press A");
+	    Movietask m1=new Movietask();
+		System.out.println("poniyen selven,mani rathinam,9L:press B");
+
+		
+
+	}
+
+}
+Task No:11
+package newclass;
+//Task No:11
+public class Hoteltask {
+	//attributes
+	int roomno;
+	String type;
+	long price;
+	public void Hoteltask(int roomno,String type,Long price) {
+		System.out.println("Roomno:"+roomno);
+		System.out.println("Type:"+type);
+		System.out.println("price:"+price);
+		}
+	
+
+	public static void main(String[] args) {
+		Hoteltask m=new Hoteltask();
+		m.Hoteltask(1, "Small", 25000L);
+		Hoteltask m1=new Hoteltask();
+		m1.Hoteltask(2, "Medium", 50000L);
+		Hoteltask m2=new Hoteltask();
+		m2.Hoteltask(3, "Large", 100000L);
+
+	}
+
+}
+
+
 
 
 
