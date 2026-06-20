@@ -306,6 +306,54 @@ public class Booktask {
 	}
 
 }
+Task No:9
+package newclass;
+//Task No:9
+
+public class laptoptask {
+	//attributes
+	int ram=50;
+	String name="lenovo";
+	Long price=35000L;
+	
+	//constructor
+	laptoptask(){
+		System.out.println("Default constructor");
+		
+	}
+	laptoptask(int a,int b){
+		int c=a*b;
+		System.out.println("Product:"+c);
+	}
+	laptoptask(int x,float d){
+		float y=(float)x+d;
+		System.out.println("sum"+y);
+		
+		
+	}
+	public void laptoptaskm3 (String name,long price,int ram){
+		System.out.println("Laptop BrandName:"+name);
+		System.out.println("Laptop price:"+price);
+		System.out.println("Laptop ram:"+ram);
+	}
+
+	public static void main(String[] args) {
+		//Constructor over loading-same name but different Signature of parameter
+         laptoptask l=new  laptoptask();
+         laptoptask l1=new laptoptask(10,30);
+         laptoptask l2=new laptoptask(15,25.33f);
+         laptoptask m3=new laptoptask();
+         
+         System.out.println(m3.name);
+         System.out.println(m3.ram);
+         System.out.println(m3.price);
+        
+         
+         
+	}
+
+}
+
 
 
 
